@@ -25,7 +25,7 @@ MCP server for Claude Code, Cursor, Windsurf and Claude Desktop. Git-diff explan
 MCP bridge and session handoff for AI coding assistants. A local daemon compresses git state and active tasks into a portable handoff prompt, and a native MCP server exposes a `context://current` resource so Cursor and Claude Code can read project state directly.
 
 **[context-refinery](https://github.com/neerajbhargav/context-refinery)** · Python, LangGraph
-Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RRF), cross-encoder reranking, and eval-gated self-refinement scored with DeepEval and RAGAS. Runs fully offline via Ollama.
+Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RRF), cross-encoder reranking, and eval-gated self-refinement scored by custom local metrics (n-gram grounding, information density, budget utilization), with optional DeepEval / RAGAS when a cloud API key is set. Runs fully offline via Ollama.
 
 ### Stack
 

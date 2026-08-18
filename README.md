@@ -43,6 +43,6 @@ Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RR
 
 ---
 
-M.S. Computer Science, NJIT · B.Tech CSE, JNTUH · OPT / STEM extension eligible
+M.S. Computer Science, NJIT · B.Tech CSE, JNTUH
 
 [Portfolio](https://neerajbhargav.com) · [LinkedIn](https://www.linkedin.com/in/neerajbhargav) · [X](https://x.com/neerajbhargav_r) · rondlanbr@gmail.com

@@ -22,10 +22,10 @@ Anyone can ship a pipeline that looks good on one run. Building the harness that
 MCP server for Claude Code, Cursor, Windsurf and Claude Desktop. Git-diff explanation with contextual reasoning, source-grounded Q&A with `file:line` citations, codebase-aware debugging, and an interactive dependency graph. Multi-provider: Anthropic, OpenAI, Gemini, or local Ollama.
 
 **[omni-context](https://github.com/neerajbhargav/omni-context)** · TypeScript, MCP SDK
-MCP bridge and session handoff for AI coding assistants. A local daemon compresses git state and active tasks into a portable handoff prompt, and a native MCP server exposes a `context://current` resource so Cursor and Claude Code can read project state directly.
+MCP bridge and session handoff for AI coding assistants. The CLI launches a foreground local dashboard that combines Git state, the full returned `git diff`, and manually supplied conversation text into a handoff prompt. A native MCP server exposes Git status and diffs through `context://current`; its task tools demonstrate in-memory task management, not persistent active sessions.
 
 **[context-refinery](https://github.com/neerajbhargav/context-refinery)** · Python, LangGraph
-Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RRF), cross-encoder reranking, and eval-gated self-refinement scored by custom local metrics (n-gram grounding, information density, budget utilization), with optional DeepEval / RAGAS when a cloud API key is set. Runs fully offline via Ollama.
+Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RRF), cross-encoder reranking, and eval-gated self-refinement scored by custom local metrics (n-gram grounding, information density, budget utilization), with optional OpenAI-backed DeepEval / RAGAS evaluators when an OpenAI API key and the required optional packages are available. Runs fully offline via Ollama.
 
 ### Stack
 
@@ -37,7 +37,7 @@ Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RR
 
 ### Writing
 
-- [Forward-Deployed: Shipping Five AI Systems Zero-to-One](https://neerajbhargav.com/writing/forward-deployed-five-systems)
+- [Forward-Deployed: Operating Five AI Systems End-to-End](https://neerajbhargav.com/writing/forward-deployed-five-systems)
 - [An Agent You Can't Measure Is One You Can't Trust](https://neerajbhargav.com/writing/eval-harness-trust)
 - [When Verification Is the Product](https://neerajbhargav.com/writing/cross-verification-product)
 
@@ -45,4 +45,4 @@ Multi-agent context engine: intent analysis, hybrid retrieval (dense + BM25 + RR
 
 M.S. Computer Science, NJIT · B.Tech CSE, JNTUH
 
-[Portfolio](https://neerajbhargav.com) · [LinkedIn](https://www.linkedin.com/in/neerajbhargav) · [X](https://x.com/neerajbhargav_r) · rondlanbr@gmail.com
+[Portfolio](https://neerajbhargav.com) · [LinkedIn](https://www.linkedin.com/in/neerajbhargav) · [X](https://x.com/nebhron) · rondlanbr@gmail.com

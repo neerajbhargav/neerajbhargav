@@ -8,7 +8,7 @@ The habit I care about most is an eval that can say no. A 3-run test on a 15-row
 
 **Start here**
 
-- [vibetter](https://github.com/neerajbhargav/vibetter): an MCP server for Claude Code and Cursor that machine-checks every file:line citation it gives. On 66 questions over three pinned open-source repos, its retrieval puts 79.8% of the answer-bearing lines in front of the model, where the first version put 0%.
+- [vibetter](https://github.com/neerajbhargav/vibetter): an MCP server for Claude Code and Cursor that machine-checks every file:line citation it parses. On 66 questions over three pinned open-source repos, its retrieval puts 79.8% of the answer-bearing lines in front of the model, where the first version put 0%. That is with no file named and a 60,000-character context.
 - [sidegig](https://github.com/neerajbhargav/sidegig): a free, open-source browser sidebar and new tab with your signed-in apps and an AI assistant. Its sign-in code detector went from 53.3% to 77.3% recall at 96.7% precision on a 330-email held-out set.
 - [splitter](https://github.com/neerajbhargav/splitter): shared expenses and personal finance, exact to the cent. It enforces Postgres row-level security on every table and passes 341 offline tests. Live at [usesplitter.vercel.app](https://usesplitter.vercel.app).
 
